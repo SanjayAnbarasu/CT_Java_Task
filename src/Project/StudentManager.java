@@ -53,7 +53,7 @@ public class StudentManager {
             if (s.getRollNo() == rollNo) {
                 printHeader();
                 System.out.println(s);
-                System.out.println("=".repeat(85));
+                System.out.println("*".repeat(85));
                 return;
             }
         }
@@ -76,7 +76,7 @@ public class StudentManager {
         System.out.println(" \n TOPPER  ");
         printHeader();
         System.out.println(topper);
-        System.out.println("=".repeat(85));
+        System.out.println("*".repeat(85));
     }
 
     public void deleteStudent(int rollNo) {

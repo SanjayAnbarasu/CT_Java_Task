@@ -7,11 +7,11 @@ public class StudentManager {
     private ArrayList<Student> students = new ArrayList<>();
 
     private void printHeader() {
-        System.out.println("*".repeat(85));
+        System.out.println("*".repeat(90));
         System.out.printf("%-6s %-20s %8s %8s %8s %10s %12s  %s%n",
                 "Roll", "Name", "Marks1", "Marks2", "Marks3",
                 "Total", "Percentage", "Grade");
-        System.out.println("*".repeat(85));
+        System.out.println("*".repeat(90));
     }
 
     public void addStudent(int rollNo, String name,
@@ -76,7 +76,7 @@ public class StudentManager {
         System.out.println(" \n TOPPER  ");
         printHeader();
         System.out.println(topper);
-        System.out.println("*".repeat(85));
+        System.out.println("*".repeat(90));
     }
 
     public void deleteStudent(int rollNo) {

@@ -9,7 +9,7 @@ public class Main {
 		StudentManager manager = new StudentManager();
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("\n======================================");
+		System.out.println("======================================");
 		System.out.println("   STUDENT RESULT MANAGEMENT SYSTEM  ");
 		System.out.println("======================================");
 
@@ -82,13 +82,11 @@ public class Main {
 	}
 
 	private static void printMenu() {
-		System.out.println("--------------------------------------");
 		System.out.println("  1. Add Student");
 		System.out.println("  2. Display All Students");
 		System.out.println("  3. Search Student by Roll Number");
 		System.out.println("  4. Display Topper");
 		System.out.println("  5. Delete Student");
 		System.out.println("  6. Exit");
-		System.out.println("--------------------------------------");
 	}
 }

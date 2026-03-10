@@ -7,11 +7,11 @@ public class StudentManager {
     private ArrayList<Student> students = new ArrayList<>();
 
     private void printHeader() {
-        System.out.println("******************************************");
+        System.out.println("*".repeat(85));
         System.out.printf("%-6s %-20s %8s %8s %8s %10s %12s  %s%n",
                 "Roll", "Name", "Marks1", "Marks2", "Marks3",
                 "Total", "Percentage", "Grade");
-        System.out.println("******************************************");
+        System.out.println("*".repeat(85));
     }
 
     public void addStudent(int rollNo, String name,

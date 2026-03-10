@@ -44,7 +44,7 @@ public class StudentManager {
         for (Student s : students) {
             System.out.println(s);
         }
-        System.out.println("=".repeat(85));
+        System.out.println("*".repeat(85));
         System.out.println("Total students: " + students.size());
     }
 

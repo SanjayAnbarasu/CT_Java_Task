@@ -9,9 +9,9 @@ public class Main {
 		StudentManager manager = new StudentManager();
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("======================================");
+        System.out.println("******************************************");
 		System.out.println("   STUDENT RESULT MANAGEMENT SYSTEM  ");
-		System.out.println("======================================");
+        System.out.println("******************************************");
 
 		boolean running = true;
 
